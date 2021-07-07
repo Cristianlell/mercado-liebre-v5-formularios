@@ -2,8 +2,10 @@
     display: flex;
     justify-content: center;
 }
-
-.registro .form, div {
+.registro .form{
+    margin-top: 40px;
+}
+.registro .form, .form div {
     display: flex;
     width: 90%;
     flex-direction: column;
@@ -26,6 +28,7 @@
 
 .registro .form input{
     width: 100%;
+    height: 25px;
     border: none;
     border-radius: 5px;
     padding: 5px;

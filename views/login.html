@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Login</title>
+  </head>
+
+  <body class="login">
+    <main class="login-main">
+      <section class="cont-login">
+        <section class="titulo">
+          <h2>Login</h2>
+        </section>
+        <h4 class="ingresa-google">Ingresa con <a href="#">Google</a></h4>
+        <section class="iniciar-sesion">
+          <form action="" method="" class="inputs" enctype="multipart/form-data"> 
+            <div>
+              <label for="usuario">Usuario</label>
+            <input type="text" id="usuario" required name="usuario" />
+              <span class="alerta-usuario">* USUARIO INCORRECTO</span>
+            </div>
+            <div>
+              <label for="contrasena">Contraseña</label>
+            <input type="password" id="contrasena" required name="password" />
+            <span class="alerta-contrasena">* CONTRASEÑA INCORRECTA</span>
+            </div>
+            <div class="recordarme">
+              <input type="checkbox" name="recordarme" id="recordarme">
+              <label for="recordarme">Recordarme</label>
+            </div>
+            <p class="recuperar-cont">
+              tus credenciales fueron robadas por hydra?...
+              <a href="#">Recuperalas</a>
+            </p>
+            <button class="btn-ingresa">INGRESA</button>
+          </form>
+        </section>
+      </section>
+      <a href="/" class="cont-img">
+        <img src="/img/torre.png" alt="logo-torre" />
+      </a>
+    </main>
+  </body>
+</html>
